@@ -14,13 +14,16 @@ const Hero = ({ heroapi }) => {
           <h1 className="text-6xl lg:text-5xl md:text-4xl sm:text3xl xsm:text-2xl font-extrabold filter drop-shadow-sm text-slate-200 ">
             {title}
           </h1>
-          <button type="button" className="button-theme bg-slate-200 ">
+          <button
+            type="button"
+            className="button-theme bg-slate-200 shadow-slate-200 rounded-xl my-5 "
+          >
             {btntext}
           </button>
           {/* <div className=""></div>
           <div className=""></div> */}
         </div>
-        y
+
         <div className="">
           <img src={img} alt="hero-img/img" className="" />
         </div>
