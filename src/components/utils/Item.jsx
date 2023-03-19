@@ -13,7 +13,7 @@ const Item = ({
   rating,
   price,
 }) => {
-  console.log("hello i am from Item", id);
+  // console.log("hello i am from Item", id);
 
   return (
     <>
